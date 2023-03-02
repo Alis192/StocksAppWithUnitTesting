@@ -1,0 +1,31 @@
+﻿@model StockTrade
+
+<!DOCTYPE html>
+<html>
+<body>
+    <header>
+        <div class="logo">
+            Stocks App
+        </div>
+    </header>
+
+    <form method="post">
+        <div class="stock-box">
+            <div class="stock-price">
+                $@Model.Price
+            </div>
+            <div class="stock-name">
+                    @Model.StockName
+            </div>
+            <div class="stock-symbol">
+                    @Model.StockSymbol
+            </div>
+        </div>
+        <input type="hidden" id="StockSymbol" value="@Model.StockSymbol" />
+        <input type="hidden" id="FinnhubToken" value="@ViewBag.FinnhubToken" />
+
+    </form>
+</body>
+</html>
+
+
