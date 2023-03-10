@@ -167,6 +167,15 @@ namespace UnitTest
             Assert.True(order_from_create.BuyOrderID != Guid.Empty);
             Assert.Contains(order_from_create, order_list);
         }
+
+
+        [Fact] 
+        public void GetAllBuyOrders_Empty()
+        {
+            List<BuyOrderResponse> empty_list = _stocksService.GetBuyOrders();
+
+            Assert.Empty(empty_list);
+        }
         #endregion
 
 
@@ -323,6 +332,15 @@ namespace UnitTest
             Assert.Contains(order_from_create, order_list);
         }
 
+        [Fact]
+        public void GetAllSellOrders_Empty()
+        {
+            List<SellOrderResponse> empty_list = _stocksService.GetSellOrders();
+
+            Assert.Empty(empty_list);
+        }
+
         #endregion
+
     }
 }
