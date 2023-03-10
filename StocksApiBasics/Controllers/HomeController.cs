@@ -17,6 +17,7 @@ namespace StocksApiBasics.Controllers
         public HomeController(IFinnhubService finnhubService, IOptions<StocksApiOptions> stocksApiOptions, IConfiguration configuration) //so 'stocksApiOptions' parameter get an object if IOptions
         {
             _finnhubService = finnhubService;
+
             _options = stocksApiOptions.Value; //and it has a predefined property called value which contains an object of stocksApiOptions class                                                    
             //stocksApiOptions is IOptions<> type, Value is 'StocksApiOptions' type
             _config= configuration;

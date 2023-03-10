@@ -11,8 +11,8 @@
 
     <form method="post">
         <div class="stock-box">
-            <div class="stock-price">
-                $@Model.Price
+            <div class="stock-price" id="stock-price">
+                @Model.Price
             </div>
             <div class="stock-name">
                     @Model.StockName
@@ -25,6 +25,8 @@
         <input type="hidden" id="FinnhubToken" value="@ViewBag.FinnhubToken" />
 
     </form>
+        <script src="~/Scripts/FinnHub.js"></script>
+    }
 </body>
 </html>
 

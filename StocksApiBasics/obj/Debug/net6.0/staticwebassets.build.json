@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "3KLFxhiLiFtzNOIQqZyyZFL0YIXEMWtpuSJ15khap34=",
+  "Source": "StocksApiBasics",
+  "BasePath": "_content/StocksApiBasics",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StocksApiBasics\\wwwroot",
+      "Source": "StocksApiBasics",
+      "ContentRoot": "C:\\Users\\alido\\source\\ASP\\StocksApiBasics\\StocksApiBasics\\wwwroot\\",
+      "BasePath": "_content/StocksApiBasics",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\alido\\source\\ASP\\StocksApiBasics\\StocksApiBasics\\wwwroot\\Scripts\\FinnHub.js",
+      "SourceId": "StocksApiBasics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alido\\source\\ASP\\StocksApiBasics\\StocksApiBasics\\wwwroot\\",
+      "BasePath": "_content/StocksApiBasics",
+      "RelativePath": "Scripts/FinnHub.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\FinnHub.js"
+    },
+    {
+      "Identity": "C:\\Users\\alido\\source\\ASP\\StocksApiBasics\\StocksApiBasics\\wwwroot\\Scripts\\JavaScript.js",
+      "SourceId": "StocksApiBasics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alido\\source\\ASP\\StocksApiBasics\\StocksApiBasics\\wwwroot\\",
+      "BasePath": "_content/StocksApiBasics",
+      "RelativePath": "Scripts/JavaScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\JavaScript.js"
+    },
+    {
+      "Identity": "C:\\Users\\alido\\source\\ASP\\StocksApiBasics\\StocksApiBasics\\wwwroot\\StyleSheet.css",
+      "SourceId": "StocksApiBasics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alido\\source\\ASP\\StocksApiBasics\\StocksApiBasics\\wwwroot\\",
+      "BasePath": "_content/StocksApiBasics",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

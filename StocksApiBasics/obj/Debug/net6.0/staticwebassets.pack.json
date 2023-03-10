@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\alido\\source\\ASP\\StocksApiBasics\\StocksApiBasics\\wwwroot\\Scripts\\FinnHub.js",
+      "PackagePath": "staticwebassets\\Scripts\\FinnHub.js"
+    },
+    {
+      "Id": "C:\\Users\\alido\\source\\ASP\\StocksApiBasics\\StocksApiBasics\\wwwroot\\Scripts\\JavaScript.js",
+      "PackagePath": "staticwebassets\\Scripts\\JavaScript.js"
+    },
+    {
+      "Id": "C:\\Users\\alido\\source\\ASP\\StocksApiBasics\\StocksApiBasics\\wwwroot\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.StocksApiBasics.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.StocksApiBasics.props",
+      "PackagePath": "build\\StocksApiBasics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.StocksApiBasics.props",
+      "PackagePath": "buildMultiTargeting\\StocksApiBasics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.StocksApiBasics.props",
+      "PackagePath": "buildTransitive\\StocksApiBasics.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
